@@ -1,9 +1,9 @@
 'use client';
 
 import { FC, ReactNode } from 'react';
-import { createAppKit } from '@reown/appkit';
 import { Adapter, SolanaAdapter } from '@reown/appkit-adapter-solana';
 import { solanaDevnet } from '@reown/appkit/networks';
+import { createAppKit } from '@reown/appkit/react';
 import { ConnectionProvider, WalletProvider } from '@solana/wallet-adapter-react';
 import { clusterApiUrl } from '@solana/web3.js';
 import { Provider } from 'react-redux';
